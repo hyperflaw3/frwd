@@ -1,1 +1,6 @@
-worker: python3 main.py
+build:
+  docker:
+    web: Dockerfile
+run:
+  worker: python3 main.py
+
