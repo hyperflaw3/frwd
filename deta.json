@@ -1,27 +1,70 @@
 {
-    "name": "Tiiny",
-    "description": "Shorten your long URLs in just a click", 
+    "name": "Forwarder Bot ",
+    "description": "Forward bot ", 
+    "runtime":"python3.7",
     "env": [
         {
             "key": "API_HASH",
             "description": "Domain name of the website, leave blank if want to use default domain provided by Deta",
             
-            "required": false 
+            "required": true 
         },
         {
-            "key": "WEBSITE_NAME",
-            "description": "Your website name, default to \"Tiiny\"",
-            "value": "TIINY",
-            "required": false
+            "key": "API_ID",
+            "description": "Api id",
+            
+            "required": true
         },
         {
-            "key": "BINARY_CONTENT_TYPES",
+            "key": "STRING_SESSION",
             "description": "This should be (*) to serve types of static files.",
             "value": "*",
             "required": true
         },
         {
-            "key": "DEFAULT_KEY_LENGTH",
+            "key": "BLOCK_FILES_WITHOUT_EXTENSIONS",
+            "description": "Length of the default key, default to 8",
+            "value": "8",
+            "required": false
+        }
+        {
+            "key": "BLOCKED_EXTENSIONS",
+            "description": "Length of the default key, default to 8",
+            "value": "8",
+            "required": false
+        },
+{
+            "key": "FORWARD_AS_COPY",
+            "description": "Length of the default key, default to 8",
+            "value": "8",
+            "required": false
+        },
+{
+            "key": "FORWARD_FILTERS",
+            "description": "Length of the default key, default to 8",
+            "value": "8",
+            "required": false
+        },
+{
+            "key": "FORWARD_FROM_CHAT_ID",
+            "description": "Length of the default key, default to 8",
+            "value": "8",
+            "required": false
+        },
+{
+            "key": "FORWARD_TO_CHAT_ID",
+            "description": "Length of the default key, default to 8",
+            "value": "8",
+            "required": false
+        },
+{
+            "key": "MINIMUM_FILE_SIZE",
+            "description": "Length of the default key, default to 8",
+            "value": "8",
+            "required": false
+        },
+{
+            "key": "STRING_SESSION",
             "description": "Length of the default key, default to 8",
             "value": "8",
             "required": false
