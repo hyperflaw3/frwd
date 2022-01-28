@@ -26,7 +26,7 @@
             "description": "Length of the default key, default to 8",
             "value": "8",
             "required": false
-        }
+        },
         {
             "key": "BLOCKED_EXTENSIONS",
             "description": "Length of the default key, default to 8",
